@@ -10,6 +10,11 @@ namespace structExercise
     {
         static void Main(string[] args)
         {
+            Number randomObject = new Number();
+            randomObject.Amount = 32.3m;
+            Console.WriteLine(randomObject.Amount);
+            Console.ReadLine();
+
         }
     }
 }
